@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently --kill-others \"npm run dev-server\" \"npm run json-server\"",
+    "dev": "concurrently --kill-others \"npm run json-server\" \"npm run dev-server\"",
     "json-server": "json-server --watch api.json -p 3000",
     "dev-server": "vite",
     "build": "vue-tsc && vite build",
