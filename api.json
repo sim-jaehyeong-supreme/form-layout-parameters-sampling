@@ -1,0 +1,278 @@
+{
+    "form_layout_parameters": [
+        {
+            "id": "a",
+            "extractTitle": "抽出条件A",
+            "extractDescription": "抽出条件A説明",
+            "inputDataList": [
+                {
+                    "inputType": "radio",
+                    "value": "",
+                    "info": {
+                        "id": "a-input-1",
+                        "title": "抽出条件Aラジオ",
+                        "description": "抽出条件Aラジオ説明",
+                        "inputLabel": "抽出条件Aラジオインプットラベル"
+                    },
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Label1"
+                        },
+                        {
+                            "value": "2",
+                            "label": "Label2"
+                        },
+                        {
+                            "value": "3",
+                            "label": "Label3"
+                        }
+                    ]
+                },
+                {
+                    "inputType": "select",
+                    "value": "",
+                    "info": {
+                        "id": "a-input-2",
+                        "title": "抽出条件Aセレクト",
+                        "description": "抽出条件Aセレクト説明",
+                        "inputLabel": "抽出条件Aセレクトインプットラベル"
+                    },
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Label1"
+                        },
+                        {
+                            "value": "2",
+                            "label": "Label2"
+                        },
+                        {
+                            "value": "3",
+                            "label": "Label3"
+                        }
+                    ]
+                },
+                {
+                    "inputType": "input",
+                    "value": "",
+                    "info": {
+                        "id": "a-input-3",
+                        "title": "抽出条件Aインプット",
+                        "description": "抽出条件Aインプット説明",
+                        "inputLabel": "抽出条件Aインプットラベル"
+                    }
+                },
+                {
+                    "inputType": "input_with_select",
+                    "value": {
+                        "input": "",
+                        "select": ""
+                    },
+                    "info": {
+                        "id": "a-input-4",
+                        "title": "抽出条件Aインプットとセレクト",
+                        "description": "抽出条件Aインプットとセレクト説明",
+                        "leftInputLabel": "抽出条件Aインプットラベル",
+                        "rightInputLabel": "抽出条件Aセレクトラベル"
+                    },
+                    "selectOptions": [
+                        {
+                            "value": "1",
+                            "label": "Label1"
+                        },
+                        {
+                            "value": "2",
+                            "label": "Label2"
+                        },
+                        {
+                            "value": "3",
+                            "label": "Label3"
+                        }
+                    ]
+                },
+                {
+                    "inputType": "checkbox",
+                    "value": [],
+                    "info": {
+                        "id": "a-input-5",
+                        "title": "抽出条件Aチェクボックス",
+                        "description": "抽出条件Aチェクボックス説明",
+                        "inputLabel": "抽出条件Aチェクボックスラベル"
+                    },
+                    "options": [
+                        {
+                            "value": "1",
+                            "label": "Label1"
+                        },
+                        {
+                            "value": "2",
+                            "label": "Label2"
+                        },
+                        {
+                            "value": "3",
+                            "label": "Label3"
+                        }
+                    ]
+                },
+                {
+                    "inputType": "sql",
+                    "value": "",
+                    "info": {
+                        "id": "a-input-6",
+                        "title": "抽出条件A SQL",
+                        "description": "抽出条件A SQL説明",
+                        "inputLabel": "抽出条件A SQLラベル"
+                    }
+                },
+                {
+                    "inputType": "double_input",
+                    "value": {
+                        "left": "",
+                        "right": ""
+                    },
+                    "info": {
+                        "id": "a-input-7",
+                        "title": "抽出条件A Double Input",
+                        "description": "抽出条件A Double Input説明",
+                        "leftInputLabel": "抽出条件A Double Input Leftラベル",
+                        "rightInputLabel": "抽出条件A Double Input Rightラベル"
+                    }
+                },
+                {
+                    "inputType": "double_input_list",
+                    "value": [],
+                    "info": {
+                        "id": "a-input-8",
+                        "title": "抽出条件A Double Input List",
+                        "description": "抽出条件A Double Input List説明",
+                        "leftInputLabel": "抽出条件A Double Input List Leftラベル",
+                        "rightInputLabel": "抽出条件A Double Input List Rightラベル"
+                    }
+                },
+                {
+                    "inputType": "double_input_date",
+                    "value": {
+                        "left": "",
+                        "right": ""
+                    },
+                    "info": {
+                        "id": "a-input-9",
+                        "title": "抽出条件A Double Input Date",
+                        "description": "抽出条件A Double Input Date説明",
+                        "leftInputLabel": "抽出条件A Double Input Date Leftラベル",
+                        "rightInputLabel": "抽出条件A Double Input Date Rightラベル"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "b",
+            "extractTitle": "抽出条件B",
+            "extractDescription": "抽出条件B説明",
+            "inputDataList": [
+                {
+                    "inputType": "input_with_select",
+                    "value": {
+                        "input": "",
+                        "select": ""
+                    },
+                    "info": {
+                        "id": "b-input-1",
+                        "title": "抽出条件Bインプットとセレクト",
+                        "description": "抽出条件Bインプットとセレクト説明",
+                        "leftInputLabel": "抽出条件Bインプットラベル",
+                        "rightInputLabel": "抽出条件Bセレクトラベル"
+                    },
+                    "selectOptions": [
+                        {
+                            "value": "1",
+                            "label": "Label1"
+                        },
+                        {
+                            "value": "2",
+                            "label": "Label2"
+                        },
+                        {
+                            "value": "3",
+                            "label": "Label3"
+                        }
+                    ]
+                },
+                {
+                    "inputType": "double_input",
+                    "value": {
+                        "left": "",
+                        "right": ""
+                    },
+                    "info": {
+                        "id": "b-input-2",
+                        "title": "抽出条件B Double Input 1",
+                        "description": "抽出条件B Double Input 1説明",
+                        "leftInputLabel": "抽出条件B Double Input 1 Leftラベル",
+                        "rightInputLabel": "抽出条件B Double Input 1 Rightラベル"
+                    }
+                },
+                {
+                    "inputType": "double_input",
+                    "value": {
+                        "left": "",
+                        "right": ""
+                    },
+                    "info": {
+                        "id": "a-input-3",
+                        "title": "抽出条件B Double Input",
+                        "description": "抽出条件B Double Input説明",
+                        "leftInputLabel": "抽出条件B Double Input 2 Leftラベル",
+                        "rightInputLabel": "抽出条件B Double Input 2 Rightラベル"
+                    }
+                },
+                {
+                    "inputType": "double_input_date",
+                    "value": {
+                        "left": "",
+                        "right": ""
+                    },
+                    "info": {
+                        "id": "b-input-4",
+                        "title": "抽出条件B Double Input Date 1",
+                        "description": "抽出条件B Double Input Date 1 説明",
+                        "leftInputLabel": "抽出条件B Double Input Date 1 Leftラベル",
+                        "rightInputLabel": "抽出条件B Double Input Date 1 Rightラベル"
+                    }
+                },
+                {
+                    "inputType": "double_input_date",
+                    "value": {
+                        "left": "",
+                        "right": ""
+                    },
+                    "info": {
+                        "id": "b-input-5",
+                        "title": "抽出条件B Double Input Date 2",
+                        "description": "抽出条件B Double Input Date 2説明",
+                        "leftInputLabel": "抽出条件B Double Input Date 2 Leftラベル",
+                        "rightInputLabel": "抽出条件B Double Input Date 2 Rightラベル"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "c",
+            "extractTitle": "抽出条件C",
+            "extractDescription": "抽出条件C説明",
+            "inputDataList": [
+                {
+                    "inputType": "sql",
+                    "value": "",
+                    "info": {
+                        "id": "c-input-1",
+                        "title": "抽出条件C SQL",
+                        "description": "抽出条件C SQL説明",
+                        "inputLabel": "抽出条件C SQLラベル"
+                    }
+                }
+            ]
+        }
+    ]
+}
